@@ -44,7 +44,7 @@ function Page() {
             {/* Contact Information */}
             <div className="space-y-4 max-w-2xl mx-auto">
               <Link 
-                href="https://linkedin.com/in/your-profile" 
+                href="https://www.linkedin.com/in/bekretsion-seyoum-75784328a/" 
                 target="_blank"
                 className="group flex items-center w-full p-4 rounded-lg
                          bg-card hover:bg-card/90
