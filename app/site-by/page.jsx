@@ -55,7 +55,7 @@ function Page() {
               >
                 <span className="font-medium group-hover:text-primary">LinkedIn:</span>
                 <span className="ml-2 text-muted-foreground group-hover:text-foreground">
-                  https://www.linkedin.com/in/bekretsion-seyoum-75784328a/
+                  Bekretsions LinkedIn
                 </span>
               </Link>
 
