@@ -40,7 +40,6 @@ const CredentialsSignInForm = () => {
             name='email'
             type='email'
             required
-            autoComplete='email'
             defaultValue={signInDefaultValues.email}
           />
         </div>
@@ -51,7 +50,6 @@ const CredentialsSignInForm = () => {
             name='password'
             type='password'
             required
-            autoComplete='password'
             defaultValue={signInDefaultValues.password}
           />
         </div>
