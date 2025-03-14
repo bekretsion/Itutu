@@ -22,7 +22,7 @@ const IconBoxes = () => {
           </div>
           <div className='space-y-2'>
             <WalletCards />
-            <div className='text-sm font-bold'>Cash on Delivery Payment</div>
+            <div className='text-sm font-bold'>Cash on Delivery Payment system.</div>
           </div>
 
         </CardContent>
