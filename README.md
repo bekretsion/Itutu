@@ -14,7 +14,9 @@ A powerful eCommerce platform designed for scalability, speed, and a seamless sh
 
 🧾 Product Details – Detailed product descriptions with images
 
-🛒 Shopping Cart & Checkout – Add to cart, manage orders, and checkout securely
+🛒 Shopping Cart & Checkout – Add to cart, manage orders, and checkout
+
+💵 Payment Method – Cash on Delivery (COD) only (online payments coming soon)
 
 📦 Order Management – Track and manage your orders in real-time
 
@@ -29,9 +31,19 @@ A powerful eCommerce platform designed for scalability, speed, and a seamless sh
 📸 Screenshots
 <p align="center"> <img src="assets/screenshoots/homepage.png" width="45%" alt="Homepage" /> <img src="assets/screenshoots/productDetail.png" width="45%" alt="Product Detail" /> </p> <p align="center"> <img src="assets/screenshoots/adminDashboard.png" width="45%" alt="Admin Dashboard" /> <img src="assets/screenshoots/productOrders.png" width="45%" alt="Product Orders" /> </p>
 🛠️ Tech Stack
-Frontend	Backend	Database	Auth	Deployment
-Next.js 15	Node.js	Prisma + PostgreSQL	NextAuth	Vercel
-React 19	Express	Neon / PlanetScale	JWT	
+Category	Technologies
+Framework	Next.js 15, React 18, TypeScript 5
+UI & Styling	TailwindCSS, Radix UI, Lucide Icons, Embla Carousel, Vaul
+State & Forms	React Hook Form, Zod, Class Variance Authority
+Database	PostgreSQL (Neon), Prisma ORM
+Authentication	NextAuth v5 (with Prisma Adapter)
+Email & Notifications	React Email, Resend API
+Payments	Cash on Delivery (COD) (PayPal integration coming soon)
+Image & File Uploads	UploadThing
+Charts & Analytics	Recharts
+Deployment	Vercel
+Testing	Jest, ts-jest
+Other Utilities	Query String, Slugify, WS (WebSockets)
 ⚡ Getting Started
 
 Follow these steps to set up the project locally:
@@ -52,6 +64,9 @@ Create a .env file in the project root and add your variables:
 DATABASE_URL=your_database_url
 NEXTAUTH_SECRET=your_secret
 NEXTAUTH_URL=http://localhost:3000
+RESEND_API_KEY=your_resend_key
+UPLOADTHING_SECRET=your_uploadthing_secret
+UPLOADTHING_APP_ID=your_uploadthing_app_id
 
 4. Run Database Migrations
 npx prisma migrate dev
@@ -69,11 +84,11 @@ This app is deployed on Vercel 🚀
 
 📌 Roadmap
 
+ 💳 Add Stripe & PayPal Online Payments
+
  🧩 Add Wishlist Feature
 
- 💳 Integrate Stripe for Payments
-
- 🌙 Add Dark Mode
+ 🌙 Implement Dark Mode
 
  🔍 Improve SEO Optimization
 
