@@ -19,6 +19,8 @@ export const metadata: Metadata = {
   title: 'Admin Dashboard',
 };
 
+export const dynamic = 'force-dynamic';
+
 const AdminOverviewPage = async () => {
   await requireAdmin();
 

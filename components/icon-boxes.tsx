@@ -9,10 +9,10 @@ const IconBoxes = () => {
         <CardContent className='grid md:grid-cols-4 gap-4 p-4'>
           <div className='space-y-2'>
             <Image 
-              src="/images/logo.jpg" 
+              src="/Ajrew_logo.svg" 
               alt='Ajrew Logo'
               width={200}
-              height={200}
+              height={100}
             />
             <ShoppingBag />
             <div className='text-sm font-bold'>Ajrew</div>

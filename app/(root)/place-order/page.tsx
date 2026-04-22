@@ -24,6 +24,8 @@ export const metadata: Metadata = {
   title: 'Place Order',
 };
 
+export const dynamic = 'force-dynamic';
+
 const PlaceOrderPage = async () => {
   const cart = await getMyCart();
   const session = await auth();

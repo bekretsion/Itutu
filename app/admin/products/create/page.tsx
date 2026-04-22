@@ -5,6 +5,8 @@ export const metadata: Metadata = {
   title: 'Create Product',
 };
 
+export const dynamic = 'force-dynamic';
+
 const CreateProductPage = async () => {
   await requireAdmin();
   return (

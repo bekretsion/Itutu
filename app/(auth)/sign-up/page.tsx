@@ -17,6 +17,8 @@ export const metadata: Metadata = {
   title: 'Sign Up',
 };
 
+export const dynamic = 'force-dynamic';
+
 const SignUpPage = async (props: {
   searchParams: Promise<{
     callbackUrl: string;
@@ -36,8 +38,8 @@ const SignUpPage = async (props: {
         <CardHeader className='space-y-4'>
           <Link href='/' className='flex-center'>
             <Image
-              src='/images/logo.jpg'
-              width={100}
+              src='/Ajrew_logo.svg'
+              width={200}
               height={100}
               alt={`${APP_NAME} logo`}
               priority={true}

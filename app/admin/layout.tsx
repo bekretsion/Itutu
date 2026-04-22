@@ -17,9 +17,9 @@ export default function AdminLayout({
           <div className='flex items-center h-16 px-4'>
             <Link href='/' className='w-22'>
               <Image
-                src='/images/logo.jpg'
-                height={48}
-                width={48}
+                src='/Ajrew_logo.svg'
+                height={36}
+                width={72}
                 alt={APP_NAME}
               />
             </Link>

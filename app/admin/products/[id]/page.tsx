@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: 'Update Product',
 };
 
+export const dynamic = 'force-dynamic';
+
 const AdminProductUpdatePage = async (props: {
   params: Promise<{
     id: string;

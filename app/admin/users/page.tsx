@@ -20,6 +20,8 @@ export const metadata: Metadata = {
   title: 'Admin Users',
 };
 
+export const dynamic = 'force-dynamic';
+
 const AdminUserPage = async (props: {
   searchParams: Promise<{
     page: string;

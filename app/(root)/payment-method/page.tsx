@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: 'Select Payment Method',
 };
 
+export const dynamic = 'force-dynamic';
+
 const PaymentMethodPage = async () => {
   const session = await auth();
   const userId = session?.user?.id;

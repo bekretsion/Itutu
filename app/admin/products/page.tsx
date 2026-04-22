@@ -14,6 +14,8 @@ import Pagination from '@/components/shared/pagination';
 import DeleteDialog from '@/components/shared/delete-dialog';
 import { requireAdmin } from '@/lib/auth-guard';
 
+export const dynamic = 'force-dynamic';
+
 const AdminProductsPage = async (props: {
   searchParams: Promise<{
     page: string;

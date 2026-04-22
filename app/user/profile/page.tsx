@@ -7,6 +7,8 @@ export const metadata: Metadata = {
   title: 'Customer Profile',
 };
 
+export const dynamic = 'force-dynamic';
+
 const Profile = async () => {
   const session = await auth();
 

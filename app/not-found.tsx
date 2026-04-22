@@ -11,8 +11,8 @@ const NotFoundPage = () => {
       <div className="space-y-8">
         <div className="flex justify-center">
           <Image
-            src="/images/logo.jpg"
-            width={48}
+            src="/Ajrew_logo.svg"
+            width={96}
             height={48}
             alt={`${APP_NAME} logo`}
             className="rounded-lg"

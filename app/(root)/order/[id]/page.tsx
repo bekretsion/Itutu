@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   title: 'Order Details',
 };
 
+export const dynamic = 'force-dynamic';
+
 const OrderDetailsPage = async (props: {
   params: Promise<{
     id: string;

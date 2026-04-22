@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   title: 'Shipping Address',
 };
 
+export const dynamic = 'force-dynamic';
+
 const ShippingAddressPage = async () => {
   const cart = await getMyCart();
 
