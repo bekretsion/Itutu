@@ -10,12 +10,12 @@ const IconBoxes = () => {
           <div className='space-y-2'>
             <Image 
               src="/images/logo.jpg" 
-              alt='Itutu Logo'
+              alt='Ajrew Logo'
               width={200}
               height={200}
             />
             <ShoppingBag />
-            <div className='text-sm font-bold'>Itutu</div>
+            <div className='text-sm font-bold'>Ajrew</div>
             <div className='text-sm text-muted-foreground'>
               Innovation meets fashion
             </div>

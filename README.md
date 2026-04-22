@@ -1,4 +1,4 @@
-Itutu 🛒
+Ajrew 🛒
 
 A modern, high-performance e-commerce platform built with Next.js 15, Prisma, and Neon PostgreSQL.
 
@@ -49,8 +49,8 @@ Other Utilities	Query String, Slugify, WS (WebSockets)
 Follow these steps to set up the project locally:
 
 1. Clone the Repository
-git clone https://github.com/bekretsion/Itutu.git
-cd Itutu
+git clone https://github.com/bekretsion/Ajrew.git
+cd Ajrew
 
 2. Install Dependencies
 npm install
